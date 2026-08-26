@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 56" width="280" height="56" role="img" aria-label="zukbox">
+  <rect width="280" height="56" rx="12" fill="#12121A" stroke="#2A2A4A"/>
+  <rect x="0" y="12" width="3" height="32" rx="1.5" fill="#A78BFA"/>
+  <text x="18" y="24" fill="#FFFFFF" font-size="13" font-weight="700" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif">zukbox</text>
+  <text x="18" y="42" fill="#A0A0B8" font-size="11" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif">브라우저 저작 툴</text>
+</svg>

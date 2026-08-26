@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 168" width="188" height="168" role="img" aria-label="THREAD — 이야기">
+  <defs>
+    <clipPath id="card">
+      <rect width="188" height="168" rx="16"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="188" height="168" rx="16" fill="#12121A"/>
+    <rect width="188" height="3" fill="#5CE1E6"/>
+  </g>
+  <rect width="188" height="168" rx="16" fill="none" stroke="#2A2A4A"/>
+  <g transform="translate(8, 8)">
+      <line x1="24" y1="30" x2="24" y2="52" stroke="#5CE1E6" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="24" cy="24" r="3.6" fill="#5CE1E6"/>
+      <circle cx="24" cy="38" r="2.4" fill="#5CE1E6" opacity="0.7"/>
+      <circle cx="24" cy="50" r="1.8" fill="#5CE1E6" opacity="0.4"/>
+    </g>
+  <text x="20" y="78" fill="#5CE1E6" font-size="10" font-weight="700" letter-spacing="0.18em" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif">THREAD</text>
+  <text x="20" y="108" fill="#FFFFFF" font-size="22" font-weight="700" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif">이야기</text>
+  <text x="20" y="130" fill="#A0A0B8" font-size="12" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif">SNS · 포럼 홈</text>
+  <text x="20" y="152" fill="#6A6A80" font-size="11" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif">www.zuzunza.com  →</text>
+</svg>
