@@ -99,12 +99,12 @@ CTAS = [
     ("cta-play", "Play on zuzunza.com", "#5CE1E6", "#0A0A0F", "#5CE1E6"),
     ("cta-org", "github.com/zukuapp", "#12121A", "#5CE1E6", "#5CE1E6"),
     ("cta-site", "Company site", "#12121A", "#5CE1E6", "#5CE1E6"),
-    ("cta-mail", "contact@zuzunza.com", "#12121A", "#5CE1E6", "#5CE1E6"),
+    ("cta-mail", "contact@crevision.kr", "#12121A", "#5CE1E6", "#5CE1E6"),
 ]
 
-CTA_TMPL = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" width="220" height="40" role="img" aria-label="{label}">
-  <rect width="220" height="40" rx="20" fill="{bg}" stroke="{stroke}"/>
-  <text x="110" y="26" text-anchor="middle" fill="{fg}" font-size="13" font-weight="700" font-family="{font}">{label}</text>
+CTA_TMPL = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} 40" width="{w}" height="40" role="img" aria-label="{label}">
+  <rect width="{w}" height="40" rx="20" fill="{bg}" stroke="{stroke}"/>
+  <text x="{cx}" y="26" text-anchor="middle" fill="{fg}" font-size="13" font-weight="700" font-family="{font}">{label}</text>
 </svg>
 """
 
@@ -249,7 +249,8 @@ def main() -> None:
         (OUT / f"chip-{key}.svg").write_text(svg.strip() + "\n", encoding="utf-8")
 
     for key, label, bg, fg, stroke in CTAS:
-        svg = CTA_TMPL.format(label=label, bg=bg, fg=fg, stroke=stroke, font=FONT)
+        w = 240 if key == "cta-mail" else 220
+        svg = CTA_TMPL.format(label=label, bg=bg, fg=fg, stroke=stroke, font=FONT, w=w, cx=w // 2)
         (OUT / f"{key}.svg").write_text(svg.strip() + "\n", encoding="utf-8")
 
     print("wrote heroes, cards, chips, ctas")

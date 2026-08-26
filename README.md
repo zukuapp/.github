@@ -9,7 +9,7 @@
   <a href="https://github.com/zukuapp"><img src="profile/assets/cta-org.svg" alt="github.com/zukuapp" height="40"></a>
   <a href="https://zuzunza.com"><img src="profile/assets/cta-play.svg" alt="Play on zuzunza.com" height="40"></a>
   <a href="https://zukuapp.github.io/"><img src="profile/assets/cta-site.svg" alt="Company site" height="40"></a>
-  <a href="mailto:contact@zuzunza.com"><img src="profile/assets/cta-mail.svg" alt="contact@zuzunza.com" height="40"></a>
+  <a href="mailto:contact@crevision.kr"><img src="profile/assets/cta-mail.svg" alt="contact@crevision.kr" height="40"></a>
 </p>
 
 <p align="center">
@@ -81,6 +81,6 @@ python profile/assets/_gen_cards.py
 - 서비스: [zuzunza.com](https://zuzunza.com)
 
 <p align="center">
-  <strong>Tresillo</strong> · Seoul, Korea · <a href="mailto:contact@zuzunza.com">contact@zuzunza.com</a><br>
+  <strong>Tresillo</strong> · Seoul, Korea · <a href="mailto:contact@crevision.kr">contact@crevision.kr</a><br>
   © 2026 Tresillo. All rights reserved.
 </p>
