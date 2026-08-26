@@ -48,12 +48,12 @@ ICONS = {
 }
 
 CARDS = [
-    ("thread", "THREAD", "이야기", "SNS · 포럼 홈", "www.zuzunza.com", "#5CE1E6"),
-    ("hype", "HYPE", "창작", "롱폼 · 사진 · 인터랙티브", "hype.zuzunza.com", "#00D4FF"),
+    ("thread", "THREAD", "이야기", "홈 · 커뮤니티", "www.zuzunza.com", "#5CE1E6"),
+    ("hype", "HYPE", "창작", "영상 · 사진 · 인터랙티브", "hype.zuzunza.com", "#00D4FF"),
     ("swipe", "SWIPE", "넘김", "세로 숏폼", "swipe.zuzunza.com", "#FF2D78"),
-    ("jump", "JUMP", "플레이", "WASM · HTML5 게임", "jump.zuzunza.com", "#00FF88"),
-    ("vive", "VIVE", "문학", "글 · 필문 · 연재", "vive.zuzunza.com", "#E8C547"),
-    ("vine", "VINE", "사운드", "음악 · 보이스 · UTAU", "vine.zuzunza.com", "#A78BFA"),
+    ("jump", "JUMP", "플레이", "브라우저 게임", "jump.zuzunza.com", "#00FF88"),
+    ("vive", "VIVE", "문학", "글 · 연재", "vive.zuzunza.com", "#E8C547"),
+    ("vine", "VINE", "사운드", "음악 · 보이스", "vine.zuzunza.com", "#A78BFA"),
     ("aist", "AIST", "생성", "AI 게임 스튜디오", "aist.zuzunza.com", "#4DB8B4"),
 ]
 
@@ -77,14 +77,14 @@ CARD_TMPL = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 168" wid
 """
 
 CHIPS = [
-    ("engine", "zuku-engine-next2d", "Jump 엔진 · 패키지 계약", "#00FF88"),
-    ("cli", "zuku-cli", "검증 · 패키징 CLI", "#5CE1E6"),
-    ("api", "zuku-api", "Jump API OpenAPI 3.1", "#00D4FF"),
-    ("zukbox", "zukbox", "브라우저 저작 툴", "#A78BFA"),
-    ("player", "zukbox-player", "WebGL / WebGPU 플레이어", "#FF2D78"),
-    ("runtime", "zukbox-runtime", "ZWF WASM 런타임", "#4DB8B4"),
-    ("home", "shizuku", "공개 홈 · 인덱스", "#E8C547"),
-    ("site", "zukuapp.github.io", "Tresillo × ZUKU 사이트", "#5CE1E6"),
+    ("engine", "zuku-engine-next2d", "Jump 엔진", "#00FF88"),
+    ("cli", "zuku-cli", "게임 패키지 도구", "#5CE1E6"),
+    ("api", "zuku-api", "Jump 공개 API", "#00D4FF"),
+    ("zukbox", "zukbox", "브라우저 저작 도구", "#A78BFA"),
+    ("player", "zukbox-player", "게임 플레이어", "#FF2D78"),
+    ("runtime", "zukbox-runtime", "Jump 실행 코어", "#4DB8B4"),
+    ("home", "shizuku", "공개 홈", "#E8C547"),
+    ("site", "zukuapp.github.io", "Tresillo × ZUKU", "#5CE1E6"),
 ]
 
 CHIP_TMPL = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 56" width="280" height="56" role="img" aria-label="{name}">

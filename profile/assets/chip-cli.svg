@@ -2,5 +2,5 @@
   <rect width="280" height="56" rx="12" fill="#12121A" stroke="#2A2A4A"/>
   <rect x="0" y="12" width="3" height="32" rx="1.5" fill="#5CE1E6"/>
   <text x="18" y="24" fill="#FFFFFF" font-size="13" font-weight="700" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif">zuku-cli</text>
-  <text x="18" y="42" fill="#A0A0B8" font-size="11" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif">검증 · 패키징 CLI</text>
+  <text x="18" y="42" fill="#A0A0B8" font-size="11" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif">게임 패키지 도구</text>
 </svg>

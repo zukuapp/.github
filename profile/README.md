@@ -14,12 +14,14 @@
   <img src="assets/ripple-rule.svg" alt="" width="960">
 </p>
 
-**ZUKU (즈쿠)** 는 Tresillo(트레실로)가 만드는 인터랙티브 UGC 미디어 플랫폼입니다.  
-관객으로 머물지 말고, 아래 표면 중 하나를 눌러 들어가세요.
+**ZUKU(즈쿠)** 는 서울의 기술 회사 **Tresillo(트레실로)** 가 만드는 창작 미디어 플랫폼입니다.  
+보고, 넘기고, 직접 플레이하는 일이 하나의 계정으로 이어집니다.
 
-## 표면을 고르세요
+문의: [contact@crevision.kr](mailto:contact@crevision.kr)
 
-카테고리 이름은 로케일과 상관없이 **Thread / Hype / Swipe / Jump / Vive / Vine** 입니다. Aist는 생성 전용 웹 스튜디오입니다.
+## 무엇을 만드나요
+
+제품 이름은 어디서나 **Thread · Hype · Swipe · Jump · Vive · Vine · Aist** 입니다. 카드를 누르면 해당 서비스로 이동합니다.
 
 <p align="center">
   <a href="https://www.zuzunza.com"><img src="assets/card-thread.svg" alt="Thread — 이야기. www.zuzunza.com" height="168"></a>
@@ -33,65 +35,65 @@
   <a href="https://aist.zuzunza.com"><img src="assets/card-aist.svg" alt="Aist — 생성. aist.zuzunza.com" height="168"></a>
 </p>
 
-하단 탭은 Thread · Hype · Swipe · Jump 입니다. Vive와 Vine은 탐색·딥링크로 들어가는 2차 입구입니다.
+**Thread**는 홈입니다. **Hype · Swipe · Jump**는 앱의 기본 화면이고, **Vive**와 **Vine**은 이어서 들어가는 입구입니다. **Aist**는 게임을 만드는 웹 스튜디오입니다.
 
-## 어떻게 들어오시겠어요?
+## 어떻게 시작하나요
 
-원하는 문을 열어 보세요. 각 경로가 바로 다음 행동을 안내합니다.
+아래를 열어 다음 행동을 고르세요.
 
 <details>
-<summary><strong>플레이어</strong> — 보고, 넘기고, 바로 뛰어들기</summary>
+<summary><strong>플레이</strong> — 보고, 넘기고, 바로 하기</summary>
 <br/>
 
-- [Thread](https://www.zuzunza.com)에서 이야기를 읽고, 다른 표면의 미리보기(≤30초)를 만납니다.
-- [Hype](https://hype.zuzunza.com) · [Swipe](https://swipe.zuzunza.com)에서 창작 피드를 따라갑니다.
-- 게임은 [Jump](https://jump.zuzunza.com)에서만 풀 플레이됩니다. Thread에는 미리보기와 딥링크만 있습니다.
+- [Thread](https://www.zuzunza.com)에서 이야기를 읽고, 다른 작품의 짧은 미리보기를 봅니다.
+- [Hype](https://hype.zuzunza.com)와 [Swipe](https://swipe.zuzunza.com)에서 창작 피드를 봅니다.
+- 게임 본편은 [Jump](https://jump.zuzunza.com)에서 플레이합니다.
 
 </details>
 
 <details>
-<summary><strong>크리에이터</strong> — 형식에 맞춰 올리기</summary>
+<summary><strong>창작</strong> — 형식에 맞춰 올리기</summary>
 <br/>
 
 | 만들고 싶은 것 | 가는 곳 |
 |---|---|
-| 인터랙티브 · 가로 영상 · 사진 | [Hype](https://hype.zuzunza.com) |
-| 세로 숏폼 | [Swipe](https://swipe.zuzunza.com) (스튜디오 없음, Swipe→Hype 배급 불가) |
-| 글 · 문학 | [Vive](https://vive.zuzunza.com) (Thread 붐업은 작성자 선택) |
-| 음악 · 보이스 · UTAU | [Vine](https://vine.zuzunza.com) |
-| AI로 게임 초안 | [Aist](https://aist.zuzunza.com) → Jump Studio draft |
+| 가로 영상 · 사진 · 인터랙티브 | [Hype](https://hype.zuzunza.com) |
+| 세로 숏폼 | [Swipe](https://swipe.zuzunza.com). 스튜디오는 없고, Swipe 작품은 Hype로 옮기지 않습니다. |
+| 글 · 문학 | [Vive](https://vive.zuzunza.com). Thread 미리보기는 작성자가 켭니다. |
+| 음악 · 보이스 | [Vine](https://vine.zuzunza.com) |
+| AI로 게임 만들기 | [Aist](https://aist.zuzunza.com)에서 만든 뒤 Jump Studio로 넘깁니다. |
 
 </details>
 
 <details>
-<summary><strong>게임 메이커</strong> — Jump에 올리기</summary>
+<summary><strong>게임</strong> — Jump에 올리기</summary>
 <br/>
 
-브라우저에서 바로 실행되는 WASM · HTML5 · ZWF 작품을 만듭니다.
+브라우저에서 바로 실행되는 게임을 만듭니다.
 
-1. 엔진·패키지 계약은 [`zuku-engine-next2d`](https://github.com/zukuapp/zuku-engine-next2d)
-2. 검증·패키징은 [`zuku-cli`](https://github.com/zukuapp/zuku-cli)
-3. API 계약은 [`zuku-api`](https://github.com/zukuapp/zuku-api)
-4. 저작 툴은 [`zukbox`](https://github.com/zukuapp/zukbox) · 플레이어 [`zukbox-player`](https://github.com/zukuapp/zukbox-player)
+- 엔진: [`zuku-engine-next2d`](https://github.com/zukuapp/zuku-engine-next2d)
+- 패키지 도구: [`zuku-cli`](https://github.com/zukuapp/zuku-cli)
+- 공개 API: [`zuku-api`](https://github.com/zukuapp/zuku-api)
+- 저작 도구: [`zukbox`](https://github.com/zukuapp/zukbox) · 플레이어 [`zukbox-player`](https://github.com/zukuapp/zukbox-player)
 
-공개는 [Jump Studio](https://jump.zuzunza.com)에서, 플레이는 Jump 허브에서.
+공개는 [Jump Studio](https://jump.zuzunza.com)에서, 플레이는 Jump에서 합니다.
 
 </details>
 
 <details>
-<summary><strong>오픈소스 기여자</strong> — 엔진·툴·계약에 손대기</summary>
+<summary><strong>오픈소스</strong> — 공개 도구에 손대기</summary>
 <br/>
 
-공개 작업대는 아래 칩을 누르세요. 이슈를 열거나 PR을 보내는 것이 기여의 시작입니다.
+아래 저장소에 이슈를 열거나 변경을 제안해 주세요.
 
-- 조직 이슈 검색: [open issues in zukuapp](https://github.com/search?q=org%3Azukuapp+is%3Aissue+is%3Aopen&type=issues)
-- 브랜드 표기: **ZUKU / zuku / 즈쿠**. “시즈쿠”는 쓰지 않습니다.
-- 격리 핵심(syscall 필터 · 메모리 카운팅 내부)은 공개하지 않습니다. 문서에는 경계·한도·인터페이스만 적습니다.
+- 조직 이슈: [zukuapp open issues](https://github.com/search?q=org%3Azukuapp+is%3Aissue+is%3Aopen&type=issues)
+- 표기: **ZUKU / zuku / 즈쿠**. “시즈쿠”는 쓰지 않습니다.
+- 게임 실행의 핵심 구현은 공개하지 않습니다. 이 페이지에는 제품과 공개 도구만 적습니다.
 
 </details>
 
 <details>
-<summary><strong>회사 · 파트너</strong> — Tresillo와 이야기하기</summary>
+<summary><strong>회사</strong> — Tresillo와 이야기하기</summary>
 <br/>
 
 - 기업 사이트: [zukuapp.github.io](https://zukuapp.github.io/)
@@ -105,7 +107,7 @@
   <img src="assets/ripple-rule.svg" alt="" width="960">
 </p>
 
-## 공개 작업대
+## 공개 도구
 
 클릭하면 해당 저장소로 이동합니다.
 
@@ -122,16 +124,16 @@
   <a href="https://github.com/zukuapp/zukuapp.github.io"><img src="assets/chip-site.svg" alt="zukuapp.github.io" height="56"></a>
 </p>
 
-## 우리가 지키는 경계
+## 실행 원칙
 
-인터랙티브 워크로드는 **권한 없는 격리 경계**와 계약된 CPU · 메모리 · PID · FD 한도 안에서만 실행됩니다.
+게임과 인터랙티브는 **권한 없이**, 정해진 범위 안에서만 실행됩니다.
 
-- **Unprivileged by design** — 샌드박스 밖에서 플레이하지 않습니다.
-- **Explicit contracts** — 의존성 · API 버전 · 스키마를 문서 계약으로 고정합니다.
-- **Resource-aware** — 한도는 창작물과 플랫폼을 함께 지킵니다.
-- **Standards first** — Next.js · WebAssembly · Rust · PostgreSQL · Redis · nginx · Cloudflare.
+- **권한 없는 실행** — 작품이 호스트를 넘보지 않습니다.
+- **문서화된 규칙** — 제품이 어떻게 연결되는지를 문서로 고정합니다.
+- **실행 규모** — 한 작품이 플랫폼 전체를 쓰지 않도록 범위를 미리 정합니다.
+- **공개 표준** — Next.js · WebAssembly · Rust · PostgreSQL · Redis · nginx · Cloudflare.
 
-보안 계약과 공개 표준은 투명하게, 격리 핵심 구현은 사유 영역으로 둡니다.
+보안과 공개 표준은 투명하게, 실행의 핵심 구현은 비공개로 둡니다.
 
 <p align="center">
   <img src="assets/ripple-rule.svg" alt="" width="960">
