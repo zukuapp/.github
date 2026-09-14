@@ -77,8 +77,8 @@ python profile/assets/_gen_cards.py
 - 서비스: [zuzunza.com](https://zuzunza.com)
 
 <p align="center">
-  <img src="profile/assets/brand/crevision-wordmark-2026-white.png#gh-dark-mode-only" alt="Crevision" height="28">
-  <img src="profile/assets/brand/crevision-wordmark-2026.png#gh-light-mode-only" alt="Crevision" height="28">
+  <img src="profile/assets/brand/crevision-symbol-c-white.png#gh-dark-mode-only" alt="Crevision" height="28">
+  <img src="profile/assets/brand/crevision-symbol-c.png#gh-light-mode-only" alt="Crevision" height="28">
   <br>
   <strong>Trecillo</strong> · Crevision · Seoul, Korea · <a href="mailto:contact@crevision.kr">contact@crevision.kr</a><br>
   © 2026 Trecillo. All rights reserved.

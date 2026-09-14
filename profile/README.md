@@ -153,8 +153,8 @@
 </p>
 
 <p align="center">
-  <img src="assets/brand/crevision-wordmark-2026-white.png#gh-dark-mode-only" alt="Crevision" height="28">
-  <img src="assets/brand/crevision-wordmark-2026.png#gh-light-mode-only" alt="Crevision" height="28">
+  <img src="assets/brand/crevision-symbol-c-white.png#gh-dark-mode-only" alt="Crevision" height="28">
+  <img src="assets/brand/crevision-symbol-c.png#gh-light-mode-only" alt="Crevision" height="28">
   <br>
   <strong>Trecillo</strong> · Crevision · Seoul, Korea · <a href="mailto:contact@crevision.kr">contact@crevision.kr</a><br>
   © 2026 Trecillo. All rights reserved.
