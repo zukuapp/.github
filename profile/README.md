@@ -1,6 +1,16 @@
 <p align="center">
-  <img src="assets/hero-dark.svg#gh-dark-mode-only" alt="ZUKU — Create what moves next. 보고, 넘기고, 직접 뛰어드세요." width="960">
-  <img src="assets/hero-light.svg#gh-light-mode-only" alt="ZUKU — Create what moves next. 보고, 넘기고, 직접 뛰어드세요." width="960">
+  <img src="assets/hero-dark.svg#gh-dark-mode-only" alt="Trecillo × ZUKU — Create what moves next. 보고, 넘기고, 직접 뛰어드세요." width="960">
+  <img src="assets/hero-light.svg#gh-light-mode-only" alt="Trecillo × ZUKU — Create what moves next. 보고, 넘기고, 직접 뛰어드세요." width="960">
+</p>
+
+<p align="center">
+  <img src="assets/brand/trecillo-horizontal-white.svg#gh-dark-mode-only" alt="Trecillo" height="48">
+  <img src="assets/brand/trecillo-horizontal-primary.svg#gh-light-mode-only" alt="Trecillo" height="48">
+  &nbsp;&nbsp;
+  <img src="assets/brand/zuku-logo-horizontal-color-white-transparent.png#gh-dark-mode-only" alt="ZUKU" height="48">
+  <img src="assets/brand/zuku-logo-horizontal-color-dark-transparent.png#gh-light-mode-only" alt="ZUKU" height="48">
+  &nbsp;&nbsp;
+  <img src="assets/brand/zuku-app-icon-teapot-2026-256.png" alt="ZUKU app icon" height="48">
 </p>
 
 <p align="center">
@@ -14,8 +24,10 @@
   <img src="assets/ripple-rule.svg" alt="" width="960">
 </p>
 
-**ZUKU(즈쿠)** 는 서울의 기술 회사 **Tresillo(트레실로)** 가 만드는 창작 미디어 플랫폼입니다.  
+**ZUKU(즈쿠)** 는 **Crevision** 그룹의 서울 기술 회사 **Trecillo(트레실로)** 가 만드는 창작 미디어 플랫폼입니다.  
 보고, 넘기고, 직접 플레이하는 일이 하나의 계정으로 이어집니다.
+
+공식 영문 표기는 **Trecillo** 입니다. 예전 문서에는 Tresillo로 적힌 경우가 있습니다.
 
 문의: [contact@crevision.kr](mailto:contact@crevision.kr)
 
@@ -35,7 +47,7 @@
   <a href="https://aist.zuzunza.com"><img src="assets/card-aist.svg" alt="Aist — 생성. aist.zuzunza.com" height="168"></a>
 </p>
 
-**Thread**는 홈입니다. **Hype · Swipe · Jump**는 앱의 기본 화면이고, **Vive**와 **Vine**은 이어서 들어가는 입구입니다. **Aist**는 게임을 만드는 웹 스튜디오입니다.
+**Thread**는 홈입니다. **Hype · Swipe · Jump**는 앱의 기본 화면이고, **Vive**와 **Vine**은 이어서 들어가는 입구입니다. **Aist**는 게임을 만드는 웹 스튜디오입니다. **Hype**와 **Swipe**도 각각 스튜디오에서 올립니다.
 
 ## 어떻게 시작하나요
 
@@ -57,8 +69,8 @@
 
 | 만들고 싶은 것 | 가는 곳 |
 |---|---|
-| 가로 영상 · 사진 · 인터랙티브 | [Hype](https://hype.zuzunza.com) |
-| 세로 숏폼 | [Swipe](https://swipe.zuzunza.com). 스튜디오는 없고, Swipe 작품은 Hype로 옮기지 않습니다. |
+| 가로 영상 · 사진 · 인터랙티브 | [Hype](https://hype.zuzunza.com) 스튜디오 |
+| 세로 숏폼 | [Swipe](https://swipe.zuzunza.com) 스튜디오. Swipe 작품은 Hype로 옮기지 않습니다. |
 | 글 · 문학 | [Vive](https://vive.zuzunza.com). Thread 미리보기는 작성자가 켭니다. |
 | 음악 · 보이스 | [Vine](https://vine.zuzunza.com) |
 | AI로 게임 만들기 | [Aist](https://aist.zuzunza.com)에서 만든 뒤 Jump Studio로 넘깁니다. |
@@ -93,11 +105,12 @@
 </details>
 
 <details>
-<summary><strong>회사</strong> — Tresillo와 이야기하기</summary>
+<summary><strong>회사</strong> — Trecillo와 이야기하기</summary>
 <br/>
 
 - 기업 사이트: [zukuapp.github.io](https://zukuapp.github.io/)
 - 서비스: [zuzunza.com](https://zuzunza.com)
+- 그룹: Crevision
 - 메일: [contact@crevision.kr](mailto:contact@crevision.kr)
 - Seoul, Korea
 
@@ -140,6 +153,9 @@
 </p>
 
 <p align="center">
-  <strong>Tresillo</strong> · Seoul, Korea · <a href="mailto:contact@crevision.kr">contact@crevision.kr</a><br>
-  © 2026 Tresillo. All rights reserved.
+  <img src="assets/brand/crevision-wordmark-2026-white.png#gh-dark-mode-only" alt="Crevision" height="28">
+  <img src="assets/brand/crevision-wordmark-2026.png#gh-light-mode-only" alt="Crevision" height="28">
+  <br>
+  <strong>Trecillo</strong> · Crevision · Seoul, Korea · <a href="mailto:contact@crevision.kr">contact@crevision.kr</a><br>
+  © 2026 Trecillo. All rights reserved.
 </p>

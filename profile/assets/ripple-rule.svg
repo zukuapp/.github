@@ -1,15 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 28" width="960" height="28" role="img" aria-hidden="true">
   <defs>
     <linearGradient id="fade" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#5CE1E6" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#5CE1E6" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#5CE1E6" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#00BCF2" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#E91E63" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FFD600" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <line x1="0" y1="14" x2="458" y2="14" stroke="url(#fade)" stroke-width="1"/>
   <line x1="502" y1="14" x2="960" y2="14" stroke="url(#fade)" stroke-width="1"/>
-  <g transform="translate(472, 6) scale(0.5)">
-    <rect x="1.75" y="1.75" width="28.5" height="28.5" rx="7.5" fill="none" stroke="#5CE1E6" stroke-width="2.5"/>
-    <path fill="#5CE1E6" d="M8.25 8h15.5v3.15L13.05 20.85h10.7v3.15H8.25v-3.15L18.95 11.15H8.25V8z"/>
+  <g transform="translate(468, -10) scale(0.333)">
+    <g transform="translate(24 24)"><path id="tsp-cut-t" d="M24 0H84C90.6274 0 96 5.3726 96 12C96 18.6274 90.6274 24 84 24H62V84C62 90.6274 56.6274 96 50 96H46C39.3726 96 34 90.6274 34 84V24H0Z" fill="#E91E63"/></g>
   </g>
 </svg>

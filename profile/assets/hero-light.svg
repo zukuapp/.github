@@ -1,13 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="960" height="280" role="img" aria-labelledby="title desc">
-  <title id="title">ZUKU - Create what moves next.</title>
-  <desc id="desc">Tresillo interactive UGC media platform. The Z mark starts a ripple.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 280" width="960" height="280" role="img" aria-labelledby="title desc">
+  <title id="title">Trecillo × ZUKU — Create what moves next.</title>
+  <desc id="desc">Trecillo presents ZUKU. Create what moves next. 보고, 넘기고, 직접 뛰어드세요.</desc>
   <defs>
-    <linearGradient id="cyanL" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0097A7"/>
-      <stop offset="100%" stop-color="#006064"/>
-    </linearGradient>
-    <radialGradient id="glowL" cx="81%" cy="36%" r="42%">
-      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.16"/>
+    <radialGradient id="glowL" cx="90%" cy="32%" r="38%">
+      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.16"/>
       <stop offset="55%" stop-color="#F4F6FA" stop-opacity="0"/>
     </radialGradient>
     <style>
@@ -15,43 +11,37 @@
       .ring2 { animation-delay: 1.25s; }
       .ring3 { animation-delay: 2.5s; }
       @keyframes ripple {
-        0% { transform: scale(0.28); opacity: 0.5; }
+        0% { transform: scale(0.28); opacity: 0.42; }
         70% { opacity: 0.1; }
         100% { transform: scale(2.05); opacity: 0; }
       }
       @media (prefers-reduced-motion: reduce) {
-        .ring, .ring2, .ring3 { animation: none; opacity: 0.18; transform: scale(1); }
+        .ring, .ring2, .ring3 { animation: none; opacity: 0.16; transform: scale(1); }
       }
     </style>
   </defs>
   <rect width="960" height="280" fill="#F4F6FA"/>
   <rect width="960" height="280" fill="url(#glowL)"/>
-  <line x1="0" y1="279.5" x2="960" y2="279.5" stroke="#006064" stroke-opacity="0.16"/>
+  <line x1="0" y1="279.5" x2="960" y2="279.5" stroke="#14171F" stroke-opacity="0.12"/>
+  <g transform="translate(36, 22) scale(0.40)" aria-label="Trecillo">
+    <g transform="translate(24 24)"><path id="tp-cut-t" d="M24 0H84C90.6274 0 96 5.3726 96 12C96 18.6274 90.6274 24 84 24H62V84C62 90.6274 56.6274 96 50 96H46C39.3726 96 34 90.6274 34 84V24H0Z" fill="#E91E63"/></g><g transform="translate(144 36) scale(.84 .837209302326)"><path id="tp-letter-0-t" transform="translate(0 0)" d="M14 3Q14 0 17 0H29Q32 0 32 3V20H45Q48 20 48 23V33Q48 36 45 36H32V60Q32 68 40 68H45Q48 68 48 71V81Q48 84 45 84H37Q14 84 14 61V36H3Q0 36 0 33V23Q0 20 3 20H14Z" fill="#14171F" fill-rule="evenodd"/><path id="tp-letter-1-r" transform="translate(57 0)" d="M3 20H15Q18 20 18 23V29C24 22 32 18 43 19H45Q48 19 48 22V35Q48 38 45 38H39C25 38 18 46 18 60V81Q18 84 15 84H3Q0 84 0 81V23Q0 20 3 20Z" fill="#14171F" fill-rule="evenodd"/><path id="tp-letter-2-e" transform="translate(112 0)" d="M64 53C64 32 53 18 33 18C12 18 0 32 0 52C0 72 12 86 34 86C46 86 55 82 62 75L51 64C46 69 41 71 34 71C24 71 18 66 17 58H61Q64 58 64 55ZM17 45H47C45 37 40 33 32 33C24 33 19 37 17 45Z" fill="#14171F" fill-rule="evenodd"/><path id="tp-letter-3-c" transform="translate(183 0)" d="M61 29L49 42C45 37 40 34 33 34C23 34 17 41 17 52C17 63 23 70 33 70C40 70 45 67 49 62L61 74C54 82 45 86 32 86C12 86 0 72 0 52C0 32 13 18 33 18C45 18 54 22 61 29Z" fill="#14171F" fill-rule="evenodd"/><path id="tp-letter-4-i" transform="translate(252 0)" d="M3 0H15Q18 0 18 3V13Q18 16 15 16H3Q0 16 0 13V3Q0 0 3 0ZM3 24H15Q18 24 18 27V81Q18 84 15 84H3Q0 84 0 81V27Q0 24 3 24Z" fill="#14171F" fill-rule="evenodd"/><path id="tp-letter-5-l" transform="translate(280 0)" d="M3 0H15Q18 0 18 3V81Q18 84 15 84H3Q0 84 0 81V3Q0 0 3 0Z" fill="#14171F" fill-rule="evenodd"/><path id="tp-letter-6-l" transform="translate(308 0)" d="M3 0H15Q18 0 18 3V81Q18 84 15 84H3Q0 84 0 81V3Q0 0 3 0Z" fill="#14171F" fill-rule="evenodd"/><path id="tp-letter-7-o" transform="translate(334 0)" d="M66 52C66 73 53 86 33 86C13 86 0 73 0 52C0 31 13 18 33 18C53 18 66 31 66 52ZM49 52C49 41 43 34 33 34C23 34 17 41 17 52C17 63 23 70 33 70C43 70 49 63 49 52Z" fill="#14171F" fill-rule="evenodd"/></g>
+  </g>
+  <text x="258" y="72" fill="#14171F" fill-opacity="0.35" font-family="ui-sans-serif, system-ui, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="600">×</text>
+  <image href="brand/zuku-logo-horizontal-color-dark-transparent.png" xlink:href="brand/zuku-logo-horizontal-color-dark-transparent.png" x="286" y="28" width="276" height="68" preserveAspectRatio="xMinYMid meet" aria-label="ZUKU"/>
   <g aria-hidden="true">
-    <circle class="ring" cx="792" cy="96" r="52" fill="none" stroke="#0097A7" stroke-width="1.15"/>
-    <circle class="ring ring2" cx="792" cy="96" r="52" fill="none" stroke="#006064" stroke-width="1.15"/>
-    <circle class="ring ring3" cx="792" cy="96" r="52" fill="none" stroke="#0097A7" stroke-width="1.15"/>
-    <circle cx="792" cy="96" r="38" fill="none" stroke="#0097A7" stroke-opacity="0.28" stroke-width="1"/>
-    <g transform="translate(768, 72) scale(1.5)">
-      <rect x="1.75" y="1.75" width="28.5" height="28.5" rx="7.5" fill="none" stroke="url(#cyanL)" stroke-width="2.5"/>
-      <path fill="url(#cyanL)" d="M8.25 8h15.5v3.15L13.05 20.85h10.7v3.15H8.25v-3.15L18.95 11.15H8.25V8z"/>
-    </g>
+    <circle class="ring" cx="864" cy="92" r="58" fill="none" stroke="#FFD600" stroke-opacity="0.7" stroke-width="1.15"/>
+    <circle class="ring ring2" cx="864" cy="92" r="58" fill="none" stroke="#EC008C" stroke-opacity="0.55" stroke-width="1.15"/>
+    <circle class="ring ring3" cx="864" cy="92" r="58" fill="none" stroke="#00BCF2" stroke-opacity="0.6" stroke-width="1.15"/>
   </g>
-  <text x="56" y="64" fill="#006064" font-family="ui-sans-serif, system-ui, Segoe UI, sans-serif" font-size="11" font-weight="600" letter-spacing="0.28em">TRESILLO PRESENTS</text>
-  <g transform="translate(56, 86)" fill="url(#cyanL)" aria-hidden="true">
-    <path d="M0 0h20.5v4.6L7.55 25.1H20.5V29.7H0v-4.6L12.95 4.6H0V0z"/>
-    <path d="M27.5 0h4.7v19.4c0 2.85 1.5 4.3 4.2 4.3s4.2-1.45 4.2-4.3V0h4.7v19.7c0 5.5-3.35 10-8.9 10s-8.9-4.5-8.9-10V0z"/>
-    <path d="M52.9 0h4.7v11.9L67.6 0h5.8L63.2 13.2 74 29.7h-5.9L57.6 15.4v14.3h-4.7V0z"/>
-    <path d="M77.7 0h4.7v19.4c0 2.85 1.5 4.3 4.2 4.3s4.2-1.45 4.2-4.3V0h4.7v19.7c0 5.5-3.35 10-8.9 10s-8.9-4.5-8.9-10V0z"/>
-  </g>
-  <text x="56" y="142" fill="#0A0A0F" font-family="ui-sans-serif, system-ui, Segoe UI, sans-serif" font-size="28" font-weight="700">Create what moves next.</text>
-  <text x="56" y="176" fill="#4A4A60" font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15">보고, 넘기고, 직접 뛰어드세요. 창작과 플레이가 한 흐름입니다.</text>
-  <g font-family="ui-sans-serif, system-ui, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="12" font-weight="600">
-    <rect x="56" y="204" width="72" height="28" rx="14" fill="none" stroke="#006064" stroke-opacity="0.4"/>
-    <text x="92" y="222" text-anchor="middle" fill="#006064">플레이</text>
-    <rect x="136" y="204" width="72" height="28" rx="14" fill="none" stroke="#006064" stroke-opacity="0.4"/>
-    <text x="172" y="222" text-anchor="middle" fill="#006064">창작</text>
-    <rect x="216" y="204" width="88" height="28" rx="14" fill="none" stroke="#006064" stroke-opacity="0.4"/>
-    <text x="260" y="222" text-anchor="middle" fill="#006064">오픈소스</text>
+  <image href="brand/zuku-app-icon-teapot-2026-256.png" xlink:href="brand/zuku-app-icon-teapot-2026-256.png" x="800" y="28" width="128" height="128" preserveAspectRatio="xMidYMid meet" aria-label="ZUKU app icon"/>
+  <text x="40" y="142" fill="#101820" font-family="ui-sans-serif, system-ui, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700">Create what moves next.</text>
+  <text x="40" y="176" fill="#4A5560" font-family="ui-sans-serif, system-ui, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15">보고, 넘기고, 직접 뛰어드세요. 창작과 플레이가 한 흐름입니다.</text>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="12" font-weight="600">
+    <rect x="40" y="204" width="72" height="28" rx="14" fill="none" stroke="#00BCF2" stroke-opacity="0.7"/>
+    <text x="76" y="222" text-anchor="middle" fill="#007A9E">플레이</text>
+    <rect x="120" y="204" width="72" height="28" rx="14" fill="none" stroke="#C9A600" stroke-opacity="0.8"/>
+    <text x="156" y="222" text-anchor="middle" fill="#7A6800">창작</text>
+    <rect x="200" y="204" width="88" height="28" rx="14" fill="none" stroke="#EC008C" stroke-opacity="0.55"/>
+    <text x="244" y="222" text-anchor="middle" fill="#EC008C">오픈소스</text>
   </g>
 </svg>
