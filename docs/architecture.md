@@ -34,6 +34,7 @@ ZUKBOX 저작물 → ZWF1 바이너리 → zukbox-runtime (WASM 파싱·타임�
 | HTML5 ZIP의 ZWF2 파일 구조와 플레이어 경계 | [`zwf/SPEC.md`](https://github.com/zukuapp/zwf/blob/main/SPEC.md) |
 | ZUKBOX 바이너리 파일 구조 | [`zukbox-runtime` 형식 명세 초안](https://github.com/zukuapp/zukbox-runtime/blob/main/docs/zwf-format-v0.md) |
 | Jump 패키지 메타데이터 | [`zuku-engine-next2d` 매니페스트 스키마](https://github.com/zukuapp/zuku-engine-next2d/blob/main/schemas/jump-manifest.schema.json) |
-| 공개 API의 경로와 데이터 모델 | [`zuku-api` OpenAPI 명세](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml) |
+| 실제 서비스 API의 사용법 | [ZUKU API 가이드](https://docs.zuzunza.com/) |
+| 공개 API 초안의 경로와 데이터 모델 | [`zuku-api` OpenAPI 명세](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml) |
 
 더 넓은 저장소 목록은 [저장소 지도](repository-map.md)에, 직접 만들어 보는 절차는 [시작하기](getting-started.md)에 있습니다.

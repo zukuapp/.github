@@ -13,6 +13,8 @@
 
 `zwf`의 ZWF2 매니페스트와 `zuku-engine-next2d`의 Jump 매니페스트는 별도 문서입니다. 한쪽 필드를 다른 쪽에 그대로 적용하지 마세요. 공개 계약을 실제 서비스 가용성이나 CLI 기능 완료로 해석하지 마세요.
 
+실제 서비스의 `/api/v1` 연동은 [ZUKU API 가이드](https://docs.zuzunza.com/)에서 시작합니다. 공개 `zuku-api` 저장소는 독립적인 OpenAPI·SDK 초안으로, 배포된 API의 상태를 대신하지 않습니다.
+
 ## ZUKBOX 저작·재생
 
 | 저장소 | 역할 | 먼저 읽을 곳 |
