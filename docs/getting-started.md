@@ -31,9 +31,9 @@ node src/cli.mjs inspect hello.zwf
 | 목표 | 볼 곳 |
 | --- | --- |
 | Jump 매니페스트의 필수 필드와 형식 확인 | [`zuku-engine-next2d` 스키마](https://github.com/zukuapp/zuku-engine-next2d/blob/main/schemas/jump-manifest.schema.json) |
-| Jump CLI가 제공하는 명령과 설정 확인 | [`zuku-cli` README](https://github.com/zukuapp/zuku-cli/blob/main/README.md) |
+| Jump CLI 시제품의 현재 구현 상태 확인 | [`zuku-cli` README](https://github.com/zukuapp/zuku-cli/blob/main/README.md) — 생성·검증·패키징·업로드는 아직 작동하지 않음 |
 | 공개 API의 경로·데이터 모델 검토 | [`zuku-api` OpenAPI 명세](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml) |
 | ZUKBOX의 저작·런타임·플레이어 구조 이해 | [저장소 지도](repository-map.md) · [공개 아키텍처](architecture.md) |
 | 문서나 도구에 변경 제안 | [기여 안내](../CONTRIBUTING.md) |
 
-각 저장소의 README와 명세가 해당 도구의 현재 사용법을 정의합니다. 이 페이지의 ZWF2 예제를 다른 도구의 설치·게시 절차로 해석하지 마세요.
+각 저장소의 README와 명세가 해당 도구의 현재 사용법을 정의합니다. 이 페이지의 ZWF2 예제를 다른 도구의 설치·게시 절차로 해석하지 마세요. 브라우저에서 읽는 전체 안내는 [공식 개발 문서](https://zukuapp.github.io/docs/)에 있습니다.
