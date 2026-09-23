@@ -8,6 +8,7 @@ ZUKU의 공개 도구와 계약을 찾는 출발점입니다. 브라우저에서
 | --- | --- |
 | HTML5 게임 ZIP을 로컬에서 ZWF2로 컴파일하고 검사하기 | [시작하기](getting-started.md) |
 | 공개 저장소 중 맞는 도구와 계약 찾기 | [저장소 지도](repository-map.md) |
+| 실제 ZUKU 서비스 API 연동하기 | [ZUKU API 가이드](https://docs.zuzunza.com/) |
 | ZWF2와 이전 ZWF 바이너리 형식, 실행 경계 이해하기 | [공개 아키텍처](architecture.md) |
 | Trecillo 로고와 문서 글꼴 원칙 확인하기 | [브랜드·타이포그래피](brand.md) |
 | 버그 수정이나 문서 변경 제안하기 | [기여 안내](../CONTRIBUTING.md) |
@@ -19,7 +20,7 @@ ZUKU의 공개 도구와 계약을 찾는 출발점입니다. 브라우저에서
 2. **Jump·API 계약** — [`zuku-engine-next2d`](https://github.com/zukuapp/zuku-engine-next2d)의 [매니페스트 스키마](https://github.com/zukuapp/zuku-engine-next2d/blob/main/schemas/jump-manifest.schema.json)와 [`zuku-api`](https://github.com/zukuapp/zuku-api)의 [OpenAPI 3.1 명세](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml)를 확인합니다. [`zuku-cli`](https://github.com/zukuapp/zuku-cli)는 아직 실제 생성·검증·패키징·업로드를 수행하지 않는 시제품입니다.
 3. **ZUKBOX 저작·재생** — [`zukbox`](https://github.com/zukuapp/zukbox), [`zukbox-runtime`](https://github.com/zukuapp/zukbox-runtime), [`zukbox-player`](https://github.com/zukuapp/zukbox-player)가 에디터·바이너리 파싱·렌더링을 나눠 맡습니다. 이 경로의 `.zwf`는 [ZWF2 HTML5 패키지](https://github.com/zukuapp/zwf/blob/main/SPEC.md)와 형식이 다릅니다.
 
-> **문서 범위**  공개 저장소에서 확인할 수 있는 형식, 도구, 인터페이스를 설명합니다. 서비스의 배포 상태나 계정·API 이용 가능 여부는 저장소의 계약 문서만으로 확정하지 않습니다.
+> **문서 범위** 이 저장소는 공개 도구와 계약을 설명합니다. 실제 서비스 API를 연동할 때는 [ZUKU API 가이드](https://docs.zuzunza.com/)와 사용 중인 릴리스의 응답을 확인하세요. 공개 `zuku-api` OpenAPI·SDK 초안은 별도 프로젝트입니다.
 
 ## 현재 상태를 읽는 법
 
