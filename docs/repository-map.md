@@ -7,11 +7,11 @@
 | 저장소 | 역할 | 먼저 읽을 곳 |
 | --- | --- | --- |
 | [`zwf`](https://github.com/zukuapp/zwf) | HTML5 ZIP을 ZWF2로 컴파일·검사 | [README](https://github.com/zukuapp/zwf/blob/main/README.md) · [ZWF2 명세](https://github.com/zukuapp/zwf/blob/main/SPEC.md) |
-| [`zuku-engine-next2d`](https://github.com/zukuapp/zuku-engine-next2d) | Jump 엔진의 공개 표면과 패키지 매니페스트 계약 | [README](https://github.com/zukuapp/zuku-engine-next2d/blob/main/README.md) · [매니페스트 스키마](https://github.com/zukuapp/zuku-engine-next2d/blob/main/schemas/jump-manifest.schema.json) |
-| [`zuku-cli`](https://github.com/zukuapp/zuku-cli) | Jump 프로젝트 검증·패키징용 CLI | [README의 명령 및 설정](https://github.com/zukuapp/zuku-cli/blob/main/README.md) |
-| [`zuku-api`](https://github.com/zukuapp/zuku-api) | 플랫폼 API의 공개 계약 | [OpenAPI 3.1 명세](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml) |
+| [`zuku-engine-next2d`](https://github.com/zukuapp/zuku-engine-next2d) | Jump 매니페스트 검증기, Next2D 어댑터와 런타임 계약. 호스트 샌드박스는 포함하지 않음 | [README](https://github.com/zukuapp/zuku-engine-next2d/blob/main/README.md) · [매니페스트 스키마](https://github.com/zukuapp/zuku-engine-next2d/blob/main/schemas/jump-manifest.schema.json) |
+| [`zuku-cli`](https://github.com/zukuapp/zuku-cli) | **시제품**. create/validate/package/upload 명령은 실제 작업 없이 성공 문구를 출력함 | [현재 상태](https://github.com/zukuapp/zuku-cli/blob/main/README.md) |
+| [`zuku-api`](https://github.com/zukuapp/zuku-api) | OpenAPI 3.1 계약과 SDK 소스 골격. 운영 서비스·npm 배포 여부는 별도 | [OpenAPI 3.1 명세](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml) |
 
-`zwf`의 ZWF2 매니페스트와 `zuku-engine-next2d`의 Jump 매니페스트는 별도 문서입니다. 한쪽 필드를 다른 쪽에 그대로 적용하지 마세요. CLI·API 저장소에 적힌 인터페이스 역시 실제 서비스 가용성을 보장하는 상태 페이지는 아닙니다.
+`zwf`의 ZWF2 매니페스트와 `zuku-engine-next2d`의 Jump 매니페스트는 별도 문서입니다. 한쪽 필드를 다른 쪽에 그대로 적용하지 마세요. 공개 계약을 실제 서비스 가용성이나 CLI 기능 완료로 해석하지 마세요.
 
 ## ZUKBOX 저작·재생
 
@@ -29,7 +29,7 @@
 | 저장소 | 역할 |
 | --- | --- |
 | [`shizuku`](https://github.com/zukuapp/shizuku) | 공개 플랫폼 소개와 문서 인덱스 |
-| [`zukuapp.github.io`](https://github.com/zukuapp/zukuapp.github.io) | 기업 웹사이트의 소스 |
+| [`zukuapp.github.io`](https://github.com/zukuapp/zukuapp.github.io) | [공식 개발 문서 사이트](https://zukuapp.github.io/docs/)와 제품 소개 페이지의 소스 |
 | [`.github`](https://github.com/zukuapp/.github) | [조직 프로필](../profile/README.md), 이 개발자 문서와 공통 기여 안내 |
 
 저장소별 코드·형식·테스트 절차는 해당 저장소가 소유합니다. 이 지도의 링크가 오래되었거나 설명이 어긋나면 [문서 변경을 제안](../CONTRIBUTING.md)해 주세요.
