@@ -1,37 +1,31 @@
 # 공개 저장소 지도
 
-하나의 이름이나 `.zwf` 확장자가 모든 도구의 입력 형식을 뜻하지는 않습니다. 작업 대상에 맞는 **계약 문서**를 먼저 찾으세요.
+[한국어](repository-map.md) · [English](repository-map.en.md) · [정식 문서 / Developer docs](https://docs.zuzunza.com/)
 
-## 게임 패키지와 공개 인터페이스
+공개 저장소 15개의 역할과 소유 계약입니다. 공개 소스, 로컬 검증, 릴리스와 운영 활성은 서로 다른 증거를 요구합니다. 비공개 서비스의 소스나 권한을 이 지도에서 공개하지 않습니다.
 
-| 저장소 | 역할 | 먼저 읽을 곳 |
+| Repository | 역할 | 기준 문서 |
 | --- | --- | --- |
-| [`zwf`](https://github.com/zukuapp/zwf) | HTML5 ZIP을 ZWF2로 컴파일·검사 | [README](https://github.com/zukuapp/zwf/blob/main/README.md) · [ZWF2 명세](https://github.com/zukuapp/zwf/blob/main/SPEC.md) |
-| [`zuku-engine-next2d`](https://github.com/zukuapp/zuku-engine-next2d) | Jump 매니페스트 검증기, Next2D 어댑터와 런타임 계약. 호스트 샌드박스는 포함하지 않음 | [README](https://github.com/zukuapp/zuku-engine-next2d/blob/main/README.md) · [매니페스트 스키마](https://github.com/zukuapp/zuku-engine-next2d/blob/main/schemas/jump-manifest.schema.json) |
-| [`zuku-cli`](https://github.com/zukuapp/zuku-cli) | **시제품**. create/validate/package/upload 명령은 실제 작업 없이 성공 문구를 출력함 | [현재 상태](https://github.com/zukuapp/zuku-cli/blob/main/README.md) |
-| [`zuku-api`](https://github.com/zukuapp/zuku-api) | OpenAPI 3.1 계약과 SDK 소스 골격. 운영 서비스·npm 배포 여부는 별도 | [OpenAPI 3.1 명세](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml) |
+| [`zukujs-cli`](https://github.com/zukuapp/zukujs-cli) | 로컬 게임 개발 CLI·단일 Agent Core·Studio·Browser Adapter | [README.md](https://github.com/zukuapp/zukujs-cli/blob/main/README.md) |
+| [`zuku-api`](https://github.com/zukuapp/zuku-api) | 공개 OpenAPI 계약·SDK 소스; 서버와 릴리스 상태는 별도 | [README.md](https://github.com/zukuapp/zuku-api/blob/main/README.md) |
+| [`zuku-engine-next2d`](https://github.com/zukuapp/zuku-engine-next2d) | Jump ZIP 검증·매니페스트·Next2D 어댑터 계약 | [README.md](https://github.com/zukuapp/zuku-engine-next2d/blob/main/README.md) |
+| [`zwf`](https://github.com/zukuapp/zwf) | ZWF2 HTML5 패키지 컴파일·검사 | [SPEC.md](https://github.com/zukuapp/zwf/blob/main/SPEC.md) |
+| [`zukbox-runtime`](https://github.com/zukuapp/zukbox-runtime) | ZWF1 Rust 파서·ABI·WASM 런타임 | [README.md](https://github.com/zukuapp/zukbox-runtime/blob/main/README.md) |
+| [`zukbox-player`](https://github.com/zukuapp/zukbox-player) | Next2D 플레이어 포크·브라우저 렌더러 | [DEVELOP.md](https://github.com/zukuapp/zukbox-player/blob/main/DEVELOP.md) |
+| [`zukbox`](https://github.com/zukuapp/zukbox) | Next2D 에디터 포크·저장·내보내기 소스 | [README.md](https://github.com/zukuapp/zukbox/blob/main/README.md) |
+| [`zukbox-lang`](https://github.com/zukuapp/zukbox-lang) | 에디터 UI 언어 리소스; 에디터 파일과 별도 확인 | [README.md](https://github.com/zukuapp/zukbox-lang/blob/main/README.md) |
+| [`zukujs`](https://github.com/zukuapp/zukujs) | Next.js 상류 포크와 ZUKU 변환·제품 식별 정보 | [ZUKUJS.md](https://github.com/zukuapp/zukujs/blob/zukujs/v27.0.0/ZUKUJS.md) |
+| [`zukujs-core`](https://github.com/zukuapp/zukujs-core) | ESM 명령 파서·제한된 진단 라이브러리; UNLICENSED·private 패키지 | [README.md](https://github.com/zukuapp/zukujs-core/blob/main/README.md) |
+| [`zuku-agent-skills`](https://github.com/zukuapp/zuku-agent-skills) | 공개 API·게임 연동·접근성 스킬 | [README.md](https://github.com/zukuapp/zuku-agent-skills/blob/main/README.md) |
+| [`zuku-developer-docs`](https://github.com/zukuapp/zuku-developer-docs) | 한국어·영어 MkDocs 정식 문서 소스 | [README.md](https://github.com/zukuapp/zuku-developer-docs/blob/main/README.md) |
+| [`zukuapp.github.io`](https://github.com/zukuapp/zukuapp.github.io) | 정적 개발자 허브·제품 소개 | [README.md](https://github.com/zukuapp/zukuapp.github.io/blob/main/README.md) |
+| [`.github`](https://github.com/zukuapp/.github) | 조직 프로필·공통 기여·문서 지도 | [README.md](https://github.com/zukuapp/.github/blob/main/README.md) |
+| [`shizuku`](https://github.com/zukuapp/shizuku) | 공개 아키텍처와 문서 인덱스; 운영 서버가 아님 | [README.md](https://github.com/zukuapp/shizuku/blob/main/README.md) |
 
-`zwf`의 ZWF2 매니페스트와 `zuku-engine-next2d`의 Jump 매니페스트는 별도 문서입니다. 한쪽 필드를 다른 쪽에 그대로 적용하지 마세요. 공개 계약을 실제 서비스 가용성이나 CLI 기능 완료로 해석하지 마세요.
+`zuku`와 `zukujs`는 `zukujs-cli`의 같은 진입점을 사용합니다. `zukujs-core`의 명령 파서는 CLI 내부 Agent Core와 역할이 다릅니다. ZWF2 HTML5, ZUKBOX ZWF1과 Jump ZIP 매니페스트는 별도 형식이며 확장자만으로 호환을 판단하지 않습니다.
 
-실제 서비스의 `/api/v1` 연동은 [ZUKU API 가이드](https://docs.zuzunza.com/)에서 시작합니다. 공개 `zuku-api` 저장소는 독립적인 OpenAPI·SDK 초안으로, 배포된 API의 상태를 대신하지 않습니다.
+실제 기본 브랜치: `zukujs`는 `zukujs/v27.0.0`, 나머지 공개 저장소는 조사 시점의 `main`입니다. 설치 명령·지원 플랫폼·패키지 라이선스·테스트와 릴리스는 연결된 저장소의 현재 문서 및 산출물에서 확인하세요.
 
 ## ZUKBOX 저작·재생
 
-| 저장소 | 역할 | 먼저 읽을 곳 |
-| --- | --- | --- |
-| [`zukbox`](https://github.com/zukuapp/zukbox) | 브라우저 기반 저작 도구 | [README](https://github.com/zukuapp/zukbox/blob/main/README.md) |
-| [`zukbox-runtime`](https://github.com/zukuapp/zukbox-runtime) | 이전 `ZWF1` 형식의 파싱·타임라인 평가를 맡는 WebAssembly 코어 | [README](https://github.com/zukuapp/zukbox-runtime/blob/main/README.md) · [형식 명세 초안](https://github.com/zukuapp/zukbox-runtime/blob/main/docs/zwf-format-v0.md) |
-| [`zukbox-player`](https://github.com/zukuapp/zukbox-player) | Next2D 렌더링 플레이어 | [README](https://github.com/zukuapp/zukbox-player/blob/main/README.md) · [개발 가이드](https://github.com/zukuapp/zukbox-player/blob/main/DEVELOP.md) |
-| [`zukbox-lang`](https://github.com/zukuapp/zukbox-lang) | 에디터 언어 리소스 | [저장소](https://github.com/zukuapp/zukbox-lang) |
-
-`zukbox-runtime`의 명세는 **v0.1 초안**입니다. 이 런타임은 렌더 큐를 만들고 픽셀 렌더링은 `zukbox-player`가 담당합니다. 두 저장소의 현재 역할과 진행 상태는 각 README에서 확인하세요.
-
-## 조직과 문서
-
-| 저장소 | 역할 |
-| --- | --- |
-| [`shizuku`](https://github.com/zukuapp/shizuku) | 공개 플랫폼 소개와 문서 인덱스 |
-| [`zukuapp.github.io`](https://github.com/zukuapp/zukuapp.github.io) | [공식 개발 문서 사이트](https://zukuapp.github.io/docs/)와 제품 소개 페이지의 소스 |
-| [`.github`](https://github.com/zukuapp/.github) | [조직 프로필](../profile/README.md), 이 개발자 문서와 공통 기여 안내 |
-
-저장소별 코드·형식·테스트 절차는 해당 저장소가 소유합니다. 이 지도의 링크가 오래되었거나 설명이 어긋나면 [문서 변경을 제안](../CONTRIBUTING.md)해 주세요.
+에디터, ZWF1 런타임과 픽셀 렌더러는 위 표의 각 저장소가 소유합니다. 형제 디렉터리 배치와 내보내기·재생 검증은 각 README와 DEVELOP.md를 따릅니다.

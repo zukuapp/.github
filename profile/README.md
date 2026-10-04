@@ -1,6 +1,18 @@
+<!-- BEGIN ZUKU OFFICIAL BRAND -->
+<!-- markdownlint-disable MD033 MD041 -->
 <p align="center">
-  <a href="https://zukuapp.github.io/docs/"><img src="assets/developer-hero.png" alt="Trecillo · ZUKU 개발자 문서 — 공개 명세에서 첫 실행까지" width="960"></a>
+  <a href="https://docs.zuzunza.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/zukuapp/.github/main/docs/branding/zuku-logo-dark.png">
+      <img src="https://raw.githubusercontent.com/zukuapp/.github/main/docs/branding/zuku-logo-light.png"
+        alt="ZUKU" width="320">
+    </picture>
+  </a>
 </p>
+<p align="center">ZUKU - 내가 불러 일으키는 새로운 창작.</p>
+<!-- markdownlint-enable MD033 MD041 -->
+<!-- END ZUKU OFFICIAL BRAND -->
 
 <p align="center">
   <a href="https://zukuapp.github.io/docs/">공식 개발 문서</a> ·
@@ -12,7 +24,7 @@
 
 # ZUKU 개발자 허브
 
-**ZUKU(즈쿠)** 는 **Trecillo(트레실로)** 가 만드는 창작 미디어 플랫폼입니다. [공식 개발자 사이트](https://zukuapp.github.io/)와 이 조직 홈은 ZUKU의 **공개 개발 도구, 파일 형식, API 계약**을 찾는 출발점입니다. 저장소별 최신 사용법은 각 저장소의 README와 명세를 기준으로 합니다.
+**ZUKU** 는 **Trecillo(트레실로)** 가 만드는 창작 미디어 플랫폼입니다. [공식 개발자 사이트](https://zukuapp.github.io/)와 이 조직 홈은 ZUKU의 **공개 개발 도구, 파일 형식, API 계약**을 찾는 출발점입니다. 저장소별 최신 사용법은 각 저장소의 README와 명세를 기준으로 합니다.
 
 ## 어디서 시작하나요?
 
@@ -39,7 +51,7 @@
 
 `zwf`의 **ZWF2 HTML5 패키지**와 ZUKBOX 런타임의 **이전 ZWF1 바이너리**는 확장자가 같아도 형식이 다릅니다. [공개 아키텍처](../docs/architecture.md)에서 경계를 먼저 확인해 주세요.
 
-`zuku-cli`는 명령 이름만 갖춘 **시제품**으로, 현재 생성·검증·패키징·업로드 작업을 수행하지 않습니다. 공개 `zuku-api` 명세 역시 운영 API나 SDK 배포를 뜻하지 않습니다. 실제 서비스 연동은 [API 가이드](https://docs.zuzunza.com/)를 확인하세요. [저장소별 상태](https://zukuapp.github.io/docs/#repositories)도 함께 읽어 주세요.
+`zuku`와 `zukujs`는 같은 CLI와 Agent Core를 사용합니다. 소스에서 생성·검증·패키징·업로드 명령을 제공하며, 실제 서비스 호출·공개 게시·플랫폼별 GUI 검증은 각 저장소의 증거와 릴리스 상태를 따릅니다. 공개 `zuku-api` 명세 역시 운영 API나 SDK 배포를 뜻하지 않습니다. 실제 서비스 연동은 [API 가이드](https://docs.zuzunza.com/)를 확인하세요. [저장소별 상태](https://zukuapp.github.io/docs/#repositories)도 함께 읽어 주세요.
 
 ## 문서와 기여
 
