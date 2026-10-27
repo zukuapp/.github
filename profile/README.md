@@ -24,38 +24,24 @@
 
 # ZUKU 개발자 허브
 
-ZUKU는 Trecillo(트레실로)가 만드는 창작 미디어 플랫폼입니다. [공식 개발자 사이트](https://zukuapp.github.io/)와 이 조직 홈은 ZUKU의 공개 개발 도구, 파일 형식, API 계약으로 연결합니다. 저장소별 최신 사용법은 각 저장소의 README와 명세를 기준으로 합니다.
+ZUKU는 Trecillo(트레실로)가 만드는 창작 미디어 플랫폼입니다.
 
 ## 작업별 시작 문서
 
-| 하려는 일 | 문서 |
+| 하려는 일 | 저장소·문서 |
 | --- | --- |
-| HTML5 게임을 ZWF2 패키지로 만들어 로컬에서 검사하기 | [5분 입문](../docs/getting-started.md) · [`zwf` 명세](https://github.com/zukuapp/zwf/blob/main/SPEC.md) |
-| Jump 게임의 패키지 필드와 실행 계약 확인하기 | [Jump 매니페스트 스키마](https://github.com/zukuapp/zuku-engine-next2d/blob/main/schemas/jump-manifest.schema.json) · [런타임 계약](https://github.com/zukuapp/zuku-engine-next2d/blob/main/contracts/jump-runtime.contract.json) |
+| HTML5 게임을 ZWF2 패키지로 만들어 로컬에서 검사하기 | [`zwf`](https://github.com/zukuapp/zwf) — [5분 입문](../docs/getting-started.md) · [ZWF2 명세](https://github.com/zukuapp/zwf/blob/main/SPEC.md) |
+| Jump 게임의 패키지 필드와 실행 계약 확인하기 | [`zuku-engine-next2d`](https://github.com/zukuapp/zuku-engine-next2d) — [매니페스트 스키마](https://github.com/zukuapp/zuku-engine-next2d/blob/main/schemas/jump-manifest.schema.json) · [런타임 계약](https://github.com/zukuapp/zuku-engine-next2d/blob/main/contracts/jump-runtime.contract.json) |
+| CLI로 게임을 생성·검증·패키징·업로드하기 | [`zukujs-cli`](https://github.com/zukuapp/zukujs-cli) — [README](https://github.com/zukuapp/zukujs-cli/blob/main/README.md) |
 | 실제 서비스 API 연동하기 | [ZUKU API 가이드](https://docs.zuzunza.com/) |
-| 공개 API 설계 초안 살펴보기 | [`zuku-api` OpenAPI 3.1 명세](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml) |
-| 에디터·플레이어·언어 도구의 역할 찾기 | [공개 저장소 지도](../docs/repository-map.md) |
+| 공개 API 설계 초안 살펴보기 | [`zuku-api`](https://github.com/zukuapp/zuku-api) — [OpenAPI 3.1 초안](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml) |
+| ZUKBOX로 저작·재생하기 | [`zukbox`](https://github.com/zukuapp/zukbox) · [`zukbox-runtime`](https://github.com/zukuapp/zukbox-runtime) · [`zukbox-player`](https://github.com/zukuapp/zukbox-player) · [`zukbox-lang`](https://github.com/zukuapp/zukbox-lang) — [저장소 지도와 형식 구분](../docs/repository-map.md#zukbox-저작재생) |
+| 전체 저장소의 역할 찾기 | [공개 저장소 지도](../docs/repository-map.md) · [개발자 사이트의 저장소 목록](https://zukuapp.github.io/docs/#repositories) |
 | 버그 수정이나 문서 개선 제안하기 | [기여 안내](../CONTRIBUTING.md) · [지원 안내](../SUPPORT.md) |
-
-> 공개 명세는 구현 계약을 정의합니다. 서비스 계정, 배포 상태, API 접근 권한은 공개 명세의 범위가 아닙니다. 설치 명령과 지원 범위는 각 저장소의 문서를 기준으로 합니다.
-
-## 공개 개발 경로
-
-| 경로 | 저장소 | 먼저 읽을 계약 |
-| --- | --- | --- |
-| HTML5 패키지 | [`zwf`](https://github.com/zukuapp/zwf) | [ZWF2 파일 형식과 플레이어 경계](https://github.com/zukuapp/zwf/blob/main/SPEC.md) |
-| Jump 게임 계약 | [`zuku-engine-next2d`](https://github.com/zukuapp/zuku-engine-next2d) | [매니페스트 스키마](https://github.com/zukuapp/zuku-engine-next2d/blob/main/schemas/jump-manifest.schema.json) · [런타임 계약](https://github.com/zukuapp/zuku-engine-next2d/blob/main/contracts/jump-runtime.contract.json) |
-| 플랫폼 API 계약 | [`zuku-api`](https://github.com/zukuapp/zuku-api) | [OpenAPI 명세](https://github.com/zukuapp/zuku-api/blob/main/spec/zuku-api-v1.yaml) |
-| 서비스 API 사용법 | [ZUKU API 가이드](https://docs.zuzunza.com/) | [인증·콘텐츠·게임 클라우드 문서](https://docs.zuzunza.com/) |
-| ZUKBOX 저작·재생 | [`zukbox`](https://github.com/zukuapp/zukbox) · [`zukbox-runtime`](https://github.com/zukuapp/zukbox-runtime) · [`zukbox-player`](https://github.com/zukuapp/zukbox-player) · [`zukbox-lang`](https://github.com/zukuapp/zukbox-lang) | [저장소 지도와 형식 구분](../docs/repository-map.md#zukbox-저작재생) |
-
-`zwf`의 ZWF2 HTML5 패키지와 ZUKBOX 런타임의 이전 ZWF1 바이너리는 확장자가 같지만 형식이 다릅니다. 형식별 경계는 [공개 아키텍처](../docs/architecture.md)에 있습니다.
-
-`zuku`와 `zukujs`는 같은 CLI와 Agent Core를 사용합니다. CLI 소스는 생성·검증·패키징·업로드 명령을 제공합니다. 실제 서비스 호출·공개 게시·플랫폼별 GUI 검증은 각 저장소의 증거와 릴리스 상태를 따릅니다. 공개 `zuku-api` 명세는 운영 API나 SDK 배포와 별개입니다. 실제 서비스 연동은 [API 가이드](https://docs.zuzunza.com/)를 따릅니다. 저장소별 상태는 [개발자 사이트의 저장소 목록](https://zukuapp.github.io/docs/#repositories)에 있습니다.
 
 ## 문서와 기여
 
-- [공식 개발 문서](https://zukuapp.github.io/docs/) · [GitHub 문서 목차](../docs/README.md) — 입문, 저장소 상태, 공개 아키텍처, 브랜드 원칙
+- [공식 개발 문서](https://zukuapp.github.io/docs/) · [GitHub 문서 목차](../docs/README.md) — 입문, 저장소 지도, 공개 아키텍처, 브랜드 원칙
 - [기여 안내](../CONTRIBUTING.md) — 변경 제안과 검증 결과 작성
 - [보안 정책](../SECURITY.md) — 취약점 비공개 신고
 - [지원 안내](../SUPPORT.md) — 기술·서비스 문의 경로

@@ -1,6 +1,6 @@
 # 공개 아키텍처와 실행 경계
 
-ZUKU의 공개 저장소는 게임 형식과 인터페이스를 나누어 정의합니다. 이 페이지는 공개 명세가 정의하는 실행 경계를 연결합니다. 비공개 구현과 운영 환경의 상태는 다루지 않습니다.
+ZUKU의 공개 저장소는 게임 형식과 인터페이스를 나누어 정의합니다.
 
 ## HTML5 ZIP → ZWF2
 
@@ -23,9 +23,9 @@ ZUKBOX 저작물 → ZWF1 바이너리 → zukbox-runtime (WASM 파싱·타임�
                                            → zukbox-player (렌더링)
 ```
 
-[`zukbox-runtime`의 v0.1 명세 초안](https://github.com/zukuapp/zukbox-runtime/blob/main/docs/zwf-format-v0.md)은 `ZWF1` 헤더와 청크 기반 바이너리 포맷을 정의합니다. 런타임은 파일 검증·타임라인 평가·렌더 큐 생성을 맡고, [`zukbox-player`](https://github.com/zukuapp/zukbox-player)는 렌더링을 맡습니다. 런타임 README는 스크립트 실행을 호스트의 별도 경계로 설명합니다.
+[`zukbox-runtime`의 v0.1 명세 초안](https://github.com/zukuapp/zukbox-runtime/blob/main/docs/zwf-format-v0.md)은 `ZWF1` 헤더와 청크 기반 바이너리 포맷을 정의합니다. 런타임은 파일 검증·타임라인 평가·렌더 큐 생성을 맡고, [`zukbox-player`](https://github.com/zukuapp/zukbox-player)는 렌더링을 맡습니다. 스크립트 실행은 런타임이 아니라 호스트가 별도 경계에서 맡습니다.
 
-ZWF1과 ZWF2는 확장자 `.zwf`를 공유하지만 서로 다른 파일 형식입니다. ZWF2 컴파일러는 ZWF2를 출력합니다. ZUKBOX의 ZWF1 형식은 별도 명세와 파서를 기준으로 다룹니다. 형식별 상태와 호환 범위는 각 저장소의 최신 명세에서 확인합니다.
+ZWF1과 ZWF2는 확장자 `.zwf`를 공유하지만 서로 다른 파일 형식이며, 각각 별도 명세와 파서를 사용합니다.
 
 ## 계약을 찾는 순서
 
